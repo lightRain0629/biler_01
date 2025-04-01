@@ -14,8 +14,6 @@ import { t } from 'i18next';
 import { SizeType } from 'antd/es/config-provider/SizeContext';
 
 const ProductsContent = () => {
-  // const [product, setProduct] = useState('pineapple');
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const productsList = [
