@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/biler_01/static/css/main.2a6a53d4.css",
-    "main.js": "/biler_01/static/js/main.f60c8773.js",
+    "main.js": "/biler_01/static/js/main.a6d3b446.js",
     "static/js/453.c3724c18.chunk.js": "/biler_01/static/js/453.c3724c18.chunk.js",
-    "static/media/carbonated_coffee.png": "/biler_01/static/media/carbonated_coffee.928359fe1c75fdb3f18e.png",
-    "static/media/ananas.png": "/biler_01/static/media/ananas.0782e7695abb761c49cb.png",
-    "static/media/orange.png": "/biler_01/static/media/orange.b7ab24d256a949d454f2.png",
-    "static/media/raspberry.png": "/biler_01/static/media/raspberry.d1dd9a51a112748cf3ed.png",
-    "static/media/coffee.png": "/biler_01/static/media/coffee.032f048da1afd1170a86.png",
-    "static/media/currant.png": "/biler_01/static/media/currant.0d0491ca217cbcaaf89b.png",
-    "static/media/pomegranate.png": "/biler_01/static/media/pomegranate.d30109dd84e904f91e4d.png",
-    "static/media/lemon.png": "/biler_01/static/media/lemon.0cc671f15dd938ff39bf.png",
-    "static/media/carbonated_water.png": "/biler_01/static/media/carbonated_water.b0816ab501d76c1766d6.png",
-    "static/media/mineralized_water.png": "/biler_01/static/media/mineralized_water.2818721fc72b9f706cc3.png",
+    "static/media/carbonated_coffee.webp": "/biler_01/static/media/carbonated_coffee.115609eebbc120d5bc1f.webp",
+    "static/media/ananas.webp": "/biler_01/static/media/ananas.46096d3cd23f5adeea48.webp",
+    "static/media/orange.webp": "/biler_01/static/media/orange.4a6bb5d866bff9319060.webp",
     "static/media/captureit.ttf": "/biler_01/static/media/captureit.975dd944ac41a2e235fa.ttf",
     "static/media/Hackney.ttf": "/biler_01/static/media/Hackney.8b37f5dd1e312593884d.ttf",
     "static/media/logo.png": "/biler_01/static/media/logo.734dba448b04c1297ea3.png",
+    "static/media/coffee.webp": "/biler_01/static/media/coffee.cead796ce37ccc94e3d4.webp",
+    "static/media/raspberry.webp": "/biler_01/static/media/raspberry.94b2f5d07b129ad65d68.webp",
+    "static/media/pomegranate.webp": "/biler_01/static/media/pomegranate.1f5ea7fcf4d88d0174b8.webp",
     "static/media/bg_blue.svg": "/biler_01/static/media/bg_blue.71942ec73d8aae56d07c87bfdf7fec35.svg",
+    "static/media/currant.webp": "/biler_01/static/media/currant.0dda2078263679a178bf.webp",
+    "static/media/lemon.webp": "/biler_01/static/media/lemon.c8ca2873edaeeac69d70.webp",
     "static/media/DINPro-Cond.otf": "/biler_01/static/media/DINPro-Cond.affc69de68c78ac81608.otf",
     "static/media/Oswald-SemiBold.ttf": "/biler_01/static/media/Oswald-SemiBold.ddc9cdcf259f8e6a1d35.ttf",
     "static/media/Oswald-Bold.ttf": "/biler_01/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
@@ -24,15 +22,17 @@
     "static/media/Oswald-Light.ttf": "/biler_01/static/media/Oswald-Light.ba7a0a165ea1a69244a7.ttf",
     "static/media/Oswald-Regular.ttf": "/biler_01/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
     "static/media/Oswald-ExtraLight.ttf": "/biler_01/static/media/Oswald-ExtraLight.0525555534a2c5af6fe4.ttf",
+    "static/media/carbonated_water.webp": "/biler_01/static/media/carbonated_water.433a93533a6e4255028a.webp",
+    "static/media/mineralized_water.webp": "/biler_01/static/media/mineralized_water.68b4c92d0d026f9f95cb.webp",
     "static/media/underline_red.svg": "/biler_01/static/media/underline_red.98feb7c1b439da00d9b43e8949ce26a0.svg",
     "index.html": "/biler_01/index.html",
     "static/media/lightning.svg": "/biler_01/static/media/lightning.beda74020a8cab85cd085632573ff4f8.svg",
     "main.2a6a53d4.css.map": "/biler_01/static/css/main.2a6a53d4.css.map",
-    "main.f60c8773.js.map": "/biler_01/static/js/main.f60c8773.js.map",
+    "main.a6d3b446.js.map": "/biler_01/static/js/main.a6d3b446.js.map",
     "453.c3724c18.chunk.js.map": "/biler_01/static/js/453.c3724c18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a6a53d4.css",
-    "static/js/main.f60c8773.js"
+    "static/js/main.a6d3b446.js"
   ]
 }
