@@ -1,26 +1,15 @@
-import { FC, Suspense, useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 
-import {
-  Anchor,
-  Button,
-  ConfigProvider,
-  DatePicker,
-  Drawer,
-  FloatButton,
-  Layout,
-  Select,
-  theme,
-  Typography,
-} from 'antd';
+import { Anchor, ConfigProvider, Drawer, FloatButton, Layout, Select, Typography } from 'antd';
 
 import './plugins/reactI18n';
 
-import { Content, Header } from 'antd/es/layout/layout';
+import { Header } from 'antd/es/layout/layout';
 import React from 'react';
-import { InstagramOutlined, MenuFoldOutlined, MenuOutlined, WhatsAppOutlined } from '@ant-design/icons';
+import { InstagramOutlined, MenuOutlined, WhatsAppOutlined } from '@ant-design/icons';
 
 import logo from './assets/logo.png';
-import Sider from 'antd/es/layout/Sider';
+
 import i18n from './plugins/reactI18n';
 import { useTranslation } from 'react-i18next';
 

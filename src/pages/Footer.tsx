@@ -1,5 +1,4 @@
 import { t } from 'i18next';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 import { InstagramOutlined, WhatsAppOutlined } from '@ant-design/icons';
 

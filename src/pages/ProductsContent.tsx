@@ -1,13 +1,13 @@
-import pineapple from '../assets/ananas.png';
-import lemon from '../assets/lemon.png';
-import raspberry from '../assets/raspberry.png';
-import pomegranate from '../assets/pomegranate.png';
-import currant from '../assets/currant.png';
-import orange from '../assets/orange.png';
-import iced_coffee from '../assets/coffee.png';
-import carbonated_coffee from '../assets/carbonated_coffee.png';
-import mineralized_water from '../assets/mineralized_water.png';
-import carbonated_water from '../assets/carbonated_water.png';
+import pineapple from '../assets/products/ananas.webp';
+import lemon from '../assets/products/lemon.webp';
+import raspberry from '../assets/products/raspberry.webp';
+import pomegranate from '../assets/products/pomegranate.webp';
+import currant from '../assets/products/currant.webp';
+import orange from '../assets/products/orange.webp';
+import iced_coffee from '../assets/products/coffee.webp';
+import carbonated_coffee from '../assets/products/carbonated_coffee.webp';
+import mineralized_water from '../assets/products/mineralized_water.webp';
+import carbonated_water from '../assets/products/carbonated_water.webp';
 import { Button, Radio } from 'antd';
 import { useEffect, useState } from 'react';
 import { t } from 'i18next';
@@ -136,8 +136,7 @@ const ProductsContent = () => {
                 type="primary"
                 className="pt-[20px] pb-[20px] pr-[20px] pl-[20px] mt-4 w-full mr-[30px]"
                 onClick={() => {
-                  window.location.href =
-                    'mailto:biler.drinks@gmail.com';
+                  window.location.href = 'mailto:biler.drinks@gmail.com';
                 }}
               >
                 <div className="pt-[0px]">
@@ -204,8 +203,7 @@ const ProductsContent = () => {
           type="primary"
           className="pt-[20px] pb-[20px] pr-[20px] pl-[20px] mt-4 w-full mr-[30px]"
           onClick={() => {
-            window.location.href =
-              'mailto:biler.drinks@gmail.com';
+            window.location.href = 'mailto:biler.drinks@gmail.com';
           }}
         >
           <div className="pt-[0px]">
