@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89dc7ff2.css",
+    "main.js": "/static/js/main.6c710a8b.js",
+    "static/js/453.c3724c18.chunk.js": "/static/js/453.c3724c18.chunk.js",
+    "static/media/captureit.ttf": "/static/media/captureit.975dd944ac41a2e235fa.ttf",
+    "static/media/Hackney.ttf": "/static/media/Hackney.8b37f5dd1e312593884d.ttf",
+    "static/media/DINPro-Cond.otf": "/static/media/DINPro-Cond.affc69de68c78ac81608.otf",
+    "static/media/Oswald-SemiBold.ttf": "/static/media/Oswald-SemiBold.ddc9cdcf259f8e6a1d35.ttf",
+    "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
+    "static/media/Oswald-Medium.ttf": "/static/media/Oswald-Medium.79e266089ef37332d7ae.ttf",
+    "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.ba7a0a165ea1a69244a7.ttf",
+    "static/media/Oswald-Regular.ttf": "/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/static/media/Oswald-ExtraLight.0525555534a2c5af6fe4.ttf",
+    "static/media/main-logo.svg": "/static/media/main-logo.cd01c255844fd4b40f1f7bd1d4d39674.svg",
+    "index.html": "/index.html",
+    "main.89dc7ff2.css.map": "/static/css/main.89dc7ff2.css.map",
+    "main.6c710a8b.js.map": "/static/js/main.6c710a8b.js.map",
+    "453.c3724c18.chunk.js.map": "/static/js/453.c3724c18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89dc7ff2.css",
+    "static/js/main.6c710a8b.js"
+  ]
+}
