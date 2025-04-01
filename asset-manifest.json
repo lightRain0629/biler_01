@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/biler_01/static/css/main.2a6a53d4.css",
-    "main.js": "/biler_01/static/js/main.a6d3b446.js",
+    "main.js": "/biler_01/static/js/main.aaeb26fc.js",
     "static/js/453.c3724c18.chunk.js": "/biler_01/static/js/453.c3724c18.chunk.js",
     "static/media/carbonated_coffee.webp": "/biler_01/static/media/carbonated_coffee.115609eebbc120d5bc1f.webp",
     "static/media/ananas.webp": "/biler_01/static/media/ananas.46096d3cd23f5adeea48.webp",
@@ -28,11 +28,11 @@
     "index.html": "/biler_01/index.html",
     "static/media/lightning.svg": "/biler_01/static/media/lightning.beda74020a8cab85cd085632573ff4f8.svg",
     "main.2a6a53d4.css.map": "/biler_01/static/css/main.2a6a53d4.css.map",
-    "main.a6d3b446.js.map": "/biler_01/static/js/main.a6d3b446.js.map",
+    "main.aaeb26fc.js.map": "/biler_01/static/js/main.aaeb26fc.js.map",
     "453.c3724c18.chunk.js.map": "/biler_01/static/js/453.c3724c18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a6a53d4.css",
-    "static/js/main.a6d3b446.js"
+    "static/js/main.aaeb26fc.js"
   ]
 }
