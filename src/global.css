@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'captureit';
+    src: url('../public/fonts/captureit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINProCond';
+    src: url('../public/fonts/DINPro-Cond.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hackney';
+    src: url('../public/fonts/Hackney.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Bold';
+    src: url('../public/fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_ExtraLight';
+    src: url('../public/fonts/Oswald-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Light';
+    src: url('../public/fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Medium';
+    src: url('../public/fonts/Oswald-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_Regular';
+    src: url('../public/fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald_SemiBold';
+    src: url('../public/fonts/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
