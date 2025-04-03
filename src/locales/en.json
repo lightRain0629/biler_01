@@ -66,5 +66,8 @@
   "SuccessRequestDist": "Your request was sent successfully, our managers will contact you. We appreciate your request!",
   "SuccessRequestDistTitle": "Your request sent successfully",
   "FooterDecsription": "Vitaminized drinks for those who are always one step ahead and are not afraid of change",
-  "AllRightsReserved": "All rights reserved"
+  "AllRightsReserved": "All rights reserved",
+  "PageNotFound": "Page Not Found",
+  "GoHomeMessage": "Please go to the home page.",
+  "GoHome": "Go to the home page"
 }

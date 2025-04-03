@@ -66,7 +66,19 @@ const Footer = () => {
               biler.distribute@gmail.com
             </a>{' '}
           </p>
-          <p className="text-gray-400 mb-2"> {`${t('WhatsApp')}: +993 62 89 29 70 / +993 61 42 94 01`} </p>
+          {/* <p className="text-gray-400 mb-2"> {`${t('WhatsApp')}: +993 62 89 29 70 / +993 61 42 94 01`} </p> */}
+          <div>
+            <p className="text-gray-400 mb-4">
+              {`${t('WhatsApp')}: `}
+              <a href="https://wa.me/99362892970" target="_blank" rel="noopener noreferrer">
+                +993 62 89 29 70
+              </a>
+              {' / '}
+              <a href="https://wa.me/99361429401" target="_blank" rel="noopener noreferrer">
+                +993 61 42 94 01
+              </a>
+            </p>
+          </div>
           <p className="text-gray-400 mb-4"> {`${t('PhoneNo')}: +993 62 89 29 70 / +993 61 42 94 01`} </p>
           <div className="flex gap-3">
             <a target="_blank" href="https://www.instagram.com/biler.drinks?igsh=ODNjZDJ1bmlrdm42">
