@@ -1,6 +1,7 @@
 import { t } from 'i18next';
 import logo from '../assets/logo.png';
-import { InstagramOutlined, WhatsAppOutlined } from '@ant-design/icons';
+import { InstagramOutlined } from '@ant-design/icons';
+import WhatsAppIcon from './WhatsAppIcon';
 
 const Footer = () => {
   return (
@@ -55,15 +56,26 @@ const Footer = () => {
               biler.drinks@gmail.com
             </a>{' '}
           </p>
+          <p className="text-gray-400 mb-2">
+            {`${t('DistributionInquiries')}: `}
+            <a
+              onClick={() => {
+                window.location.href = 'mailto:biler.distribute@gmail.com';
+              }}
+            >
+              biler.distribute@gmail.com
+            </a>{' '}
+          </p>
           <p className="text-gray-400 mb-2"> {`${t('WhatsApp')}: +993 62 89 29 70 / +993 61 42 94 01`} </p>
           <p className="text-gray-400 mb-4"> {`${t('PhoneNo')}: +993 62 89 29 70 / +993 61 42 94 01`} </p>
           <div className="flex gap-3">
             <a target="_blank" href="https://www.instagram.com/biler.drinks?igsh=ODNjZDJ1bmlrdm42">
               <InstagramOutlined style={{ fontSize: 30 }} onClick={() => {}} />
             </a>
-            <a target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
+            {/* <a target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
               <WhatsAppOutlined style={{ fontSize: 30 }} onClick={() => {}} />
-            </a>
+            </a> */}
+            <WhatsAppIcon phoneNumber="99362892970" message={t('WhatsAppPreMessage')} />
           </div>
         </div>{' '}
         {/* {'© BILER DRINKS ' + new Date().getFullYear()} */}

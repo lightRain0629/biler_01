@@ -141,7 +141,7 @@ const ProductsContent = () => {
                 type="primary"
                 className="pt-[20px] pb-[20px] pr-[20px] pl-[20px] mt-4 w-full mr-[30px]"
                 onClick={() => {
-                  window.location.href = 'mailto:biler.drinks@gmail.com';
+                  window.location.href = 'mailto:biler.distribute@gmail.com';
                 }}
               >
                 <div className="pt-[0px]">
@@ -208,7 +208,7 @@ const ProductsContent = () => {
           type="primary"
           className="pt-[20px] pb-[20px] pr-[20px] pl-[20px] mt-4 w-full mr-[30px]"
           onClick={() => {
-            window.location.href = 'mailto:biler.drinks@gmail.com';
+            window.location.href = 'mailto:biler.distribute@gmail.com';
           }}
         >
           <div className="pt-[0px]">

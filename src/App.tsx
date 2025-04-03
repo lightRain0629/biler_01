@@ -16,6 +16,7 @@ import { useTranslation } from 'react-i18next';
 import ru from 'antd/locale/ru_RU';
 import en from 'antd/locale/en_US';
 import MainLayout from './pages/MainLayout';
+import WhatsAppIcon from './pages/WhatsAppIcon';
 
 const App: FC = () => {
   const topRef = React.useRef<HTMLDivElement>(null);
@@ -129,9 +130,10 @@ const App: FC = () => {
                   <a target="_blank" href="https://www.instagram.com/biler.drinks?igsh=ODNjZDJ1bmlrdm42">
                     <InstagramOutlined style={{ fontSize: 30 }} onClick={() => {}} />
                   </a>
-                  <a target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
+                  {/* <a target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
                     <WhatsAppOutlined style={{ fontSize: 30 }} onClick={() => {}} />
-                  </a>
+                  </a> */}
+                  <WhatsAppIcon phoneNumber="99362892970" message={t('WhatsAppPreMessage')} />
                 </div>
               </div>
             </div>
@@ -196,9 +198,9 @@ const App: FC = () => {
               >
                 <InstagramOutlined style={{ fontSize: 30 }} onClick={() => {}} />
               </a>
-              <a className="hidden md:flex" target="_blank" href="https://www.whatsapp.com/?lang=ru_RU">
-                <WhatsAppOutlined style={{ fontSize: 30 }} onClick={() => {}} />
-              </a>
+
+              <WhatsAppIcon className="hidden md:flex" phoneNumber="99362892970" message={t('WhatsAppPreMessage')} />
+
               <Select
                 className="hidden md:flex"
                 value={language}
