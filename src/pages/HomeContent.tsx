@@ -33,7 +33,7 @@ const HomeContent = () => {
             <img src={logo} alt="logo" className="w-[238px]  md:w-[478px] mb-6" />
           </div>
 
-          <h2 className="text-[20px] font-captureit md:text-[36px]"> {t('VictoryNotCoincidence')}</h2>
+          <h2 className="text-[20px] font-captureit md:text-[36px]"> {t('WelcomeToEnergyDrinksWorld')}</h2>
           <Typography.Text className=" text-[18px] md:text-[30px] font-Oswald_Medium">
             {t('EnergyDrinksMainQuote')}
           </Typography.Text>

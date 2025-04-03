@@ -8,15 +8,12 @@ const EnergyContent = () => {
     <div className="bg-[#0E1225] min-h-[80vh] xl:h-screen flex justify-center flex-col ">
       <div className="flex flex-col items-center text-white">
         <div className="relative mb-[7vh] box-border">
-          <p className="text-[15px] md:text-[22px] font-captureit relative z-[21] font-normal whitespace-break-spaces text-center">{`#${t('WelcomeToEnergyDrinksWorld')}`}</p>
-          <img src={redUnderline} className="absolute z-20 bottom-[-15px] left-[-5px] w-[110%] m-0 p-0" />
+          <p className="text-[20px] md:text-[28px] font-captureit relative z-[21] font-normal whitespace-break-spaces text-center">
+            {'Biler Drinks'}
+          </p>
+          <img src={redUnderline} className="absolute z-20 bottom-[0px] left-[-5px] w-[110%] m-0 p-0" />
         </div>
         <p className="w-[308px] md:w-[555px] lg:w-[768px] text-[15px] font-Oswald_Medium md:text-[22px]  uppercase text-center block space letter-spacing-[-1px]">
-          {/* Go&nbsp;Champ&nbsp;—&nbsp;это&nbsp;энергетический бустер для&nbsp;смелых&nbsp;и&nbsp;амбициозных.
-          <br /> С&nbsp;натуральным соком, кофеином, витаминами и&nbsp;аминокислотами,он&nbsp;дарит взрывную энергию
-          без&nbsp;компромиссов.
-          <br />
-          Только настоящая сила природы для&nbsp;преодоления любых&nbsp;препятствий. */}
           {t('BilerInfo')}
         </p>
         <div className="flex mt-[66px] gap-[0px] md:gap-[40px] md:mt-[80px] lg:gap-[75px]">

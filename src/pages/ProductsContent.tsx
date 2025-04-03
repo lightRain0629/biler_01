@@ -32,6 +32,13 @@ const ProductsContent = () => {
   const [radioSize, setRadioSize] = useState<SizeType>('middle');
 
   useEffect(() => {
+    productsList.forEach((product) => {
+      const img = new Image();
+      img.src = product.image;
+    });
+  }, []);
+
+  useEffect(() => {
     const handleResize = () => {
       setRadioSize(window.innerWidth < 1315 ? 'small' : 'middle');
     };

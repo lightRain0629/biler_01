@@ -18,32 +18,6 @@ import en from 'antd/locale/en_US';
 import MainLayout from './pages/MainLayout';
 
 const App: FC = () => {
-  // const themeConfig = {
-  //   algorithm: [theme.darkAlgorithm],
-  //   token: {
-  //     colorPrimary: appCustomization.primaryColor,
-  //     borderRadius: appCustomization.borderRadius,
-  //     fontFamily: 'Open Sans, sans-serif',
-  //     fontSize: appCustomization.fontSize,
-  //     colorTextBase: appCustomization.colorTextBase,
-  //     colorBgContainer: appCustomization.theme === 'dark' ? '#000000' : '#FFFFFF',
-  //     screenXXLMin: 2500,
-  //     screenXXL: 2500,
-  //   },
-  //   components: {
-  //     Typography: {
-  //       titleMarginTop: 0,
-  //       titleMarginBottom: 0,
-  //     },
-  //   },
-  // };
-
-  {
-    /* <Button className="md:bg-black md:text-white xl:bg-white xl:text-black sm:bg-slate-500 sm:text-green-300 lg:bg-orange-900 lg:text-red-600">
-          Hanle
-        </Button> */
-  }
-
   const topRef = React.useRef<HTMLDivElement>(null);
   const [targetOffset, setTargetOffset] = useState<number>();
 
@@ -250,18 +224,6 @@ const App: FC = () => {
             </div>
           </div>
         </Header>
-        {/* <Layout>
-          <Content className="bg-gradient-to-b from-[#172979] to-[rgba(22,40,116,0.02)] h-screen"></Content>
-          <Content id="products" className="bg-gradient-to-b from-[#172979] to-[rgba(22,40,116,0.02)] h-screen"></Content>
-          <Content id="distributors" className="h-screen">
-            {' '}
-            Content2{' '}
-          </Content>
-          <Content id="contacts" className="h-screen">
-            {' '}
-            Content3{' '}
-          </Content>
-        </Layout> */}
         <MainLayout />
       </Layout>
     </ConfigProvider>

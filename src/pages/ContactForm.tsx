@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Form, Input, Button, Modal } from 'antd';
 import emailjs from 'emailjs-com';
 import { t } from 'i18next';
@@ -8,6 +8,7 @@ const Context = React.createContext({ name: 'Default' });
 const ContactForm: React.FC = () => {
   const [form] = Form.useForm();
   const [modal, contextHolder] = Modal.useModal();
+  const [isLoading, setIsLoading] = useState(false);
 
   const success = () => {
     modal.success({
@@ -27,19 +28,22 @@ const ContactForm: React.FC = () => {
     const { companyName, inn, phoneNumber, email } = values;
 
     const templateParams = {
+      time: new Date().toISOString(),
       company_name: companyName,
       inn,
       phone_number: phoneNumber,
       email,
     };
-
+    setIsLoading(true);
     emailjs
-      .send('your_service_id', 'your_template_id', templateParams, 'your_user_id')
+      .send('service_tt44rvc', 'template_t0wz8uj', templateParams, 'vQY8gMnFn1rlgIBjx')
       .then(() => {
+        setIsLoading(false);
         success();
         form.resetFields();
       })
       .catch(() => {
+        setIsLoading(false);
         errorMessage();
       });
   };
@@ -104,7 +108,7 @@ const ContactForm: React.FC = () => {
             </Form.Item>
 
             <Form.Item>
-              <Button type="primary" htmlType="submit" className="w-full text-white">
+              <Button type="primary" htmlType="submit" className="w-full text-white" loading={isLoading}>
                 {/* <Button type="primary" htmlType="submit" className="w-full bg-[#01326F] hover:bg-[#012454] text-white"> */}
                 <h2 className="text-[18px] md:text-[24px] font-Oswald_Medium uppercase"> {t('Submit')}</h2>
               </Button>
