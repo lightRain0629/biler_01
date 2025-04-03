@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/biler_01/static/css/main.2a6a53d4.css",
-    "main.js": "/biler_01/static/js/main.aaeb26fc.js",
+    "main.css": "/biler_01/static/css/main.212d3b14.css",
+    "main.js": "/biler_01/static/js/main.f75cd857.js",
     "static/js/453.c3724c18.chunk.js": "/biler_01/static/js/453.c3724c18.chunk.js",
-    "static/media/carbonated_coffee.webp": "/biler_01/static/media/carbonated_coffee.115609eebbc120d5bc1f.webp",
-    "static/media/ananas.webp": "/biler_01/static/media/ananas.46096d3cd23f5adeea48.webp",
-    "static/media/orange.webp": "/biler_01/static/media/orange.4a6bb5d866bff9319060.webp",
     "static/media/captureit.ttf": "/biler_01/static/media/captureit.975dd944ac41a2e235fa.ttf",
     "static/media/Hackney.ttf": "/biler_01/static/media/Hackney.8b37f5dd1e312593884d.ttf",
     "static/media/logo.png": "/biler_01/static/media/logo.734dba448b04c1297ea3.png",
+    "static/media/carbonated_coffee.webp": "/biler_01/static/media/carbonated_coffee.c8cfa608360e34603fc4.webp",
+    "static/media/orange.webp": "/biler_01/static/media/orange.d78aa78ca32432b60d9d.webp",
     "static/media/coffee.webp": "/biler_01/static/media/coffee.cead796ce37ccc94e3d4.webp",
     "static/media/raspberry.webp": "/biler_01/static/media/raspberry.94b2f5d07b129ad65d68.webp",
+    "static/media/ananas.webp": "/biler_01/static/media/ananas.0a6f9e67966f3b89985e.webp",
     "static/media/pomegranate.webp": "/biler_01/static/media/pomegranate.1f5ea7fcf4d88d0174b8.webp",
     "static/media/bg_blue.svg": "/biler_01/static/media/bg_blue.71942ec73d8aae56d07c87bfdf7fec35.svg",
     "static/media/currant.webp": "/biler_01/static/media/currant.0dda2078263679a178bf.webp",
@@ -27,12 +27,12 @@
     "static/media/underline_red.svg": "/biler_01/static/media/underline_red.98feb7c1b439da00d9b43e8949ce26a0.svg",
     "index.html": "/biler_01/index.html",
     "static/media/lightning.svg": "/biler_01/static/media/lightning.beda74020a8cab85cd085632573ff4f8.svg",
-    "main.2a6a53d4.css.map": "/biler_01/static/css/main.2a6a53d4.css.map",
-    "main.aaeb26fc.js.map": "/biler_01/static/js/main.aaeb26fc.js.map",
+    "main.212d3b14.css.map": "/biler_01/static/css/main.212d3b14.css.map",
+    "main.f75cd857.js.map": "/biler_01/static/js/main.f75cd857.js.map",
     "453.c3724c18.chunk.js.map": "/biler_01/static/js/453.c3724c18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6a53d4.css",
-    "static/js/main.aaeb26fc.js"
+    "static/css/main.212d3b14.css",
+    "static/js/main.f75cd857.js"
   ]
 }
