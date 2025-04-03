@@ -35,7 +35,7 @@ const HomeContent = () => {
 
           <h2 className="text-[20px] font-captureit md:text-[36px]"> {t('WelcomeToEnergyDrinksWorld')}</h2>
           <Typography.Text className=" text-[18px] md:text-[30px] font-Oswald_Medium">
-            {t('EnergyDrinksMainQuote')}
+            {/* {t('EnergyDrinksMainQuote')} */}
           </Typography.Text>
 
           <Button

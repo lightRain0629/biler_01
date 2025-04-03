@@ -12,7 +12,9 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-2xl font-bold mb-4">BILER DRINKS</h2>
-          <p className="text-gray-400">{t('FooterDecsription')}</p>
+          {/* Replace this by address */}
+          {/* <p className="text-gray-400">{t('FooterDecsription')}</p> */}
+          <p className="text-gray-400">{t('UniqueFlavorsQuote')}</p>
         </div>
         {/* Ссылки на страницы */}
         {/* <div>
